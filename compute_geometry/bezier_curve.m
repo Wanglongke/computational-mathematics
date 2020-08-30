@@ -1,12 +1,12 @@
 % 参数
-Bezier_point=[0,0;1,3;5,3;6,0];   %控制顶点(0,0),（1,3), (5,3), (6,0)
-% Bezier_point=[0,0;1,3;5,3;6,0;10,1;8,2]; 
+% Bezier_point=[0,0;1,3;5,3;6,0];   %控制顶点(0,0),（1,3), (5,3), (6,0)
+Bezier_point=[0,0;1,3;5,3;6,0;10,1;8,2]; 
 n=size(Bezier_point);
 n=n(1,1)-1;   %次数
 t=0:0.01:1;
-t_tatget=0.5;
-color=['g','c'];   % de Castelijau 过程添加的新的控制多边形的颜色,n-1种颜色
-% color=['g','c','k','y'];
+t_tatget=0.3;
+% color=['g','c'];   % de Castelijau 过程添加的新的控制多边形的颜色,n-1种颜色
+color=['g','c','k','y'];
 %% 上方为参数，改变参数可以实现不同次数的BEZIER曲线
 % 构造基函数,离散;和Bezier曲线
 Bn_i=zeros(n+1,length(t));
@@ -30,7 +30,7 @@ target=zeros(1,2);
 target(1,1)=subs(px,x,t_tatget);
 target(1,2)=subs(py,x,t_tatget);
 %画图
-figure(1)
+fig = figure(1);
 % 建立坐标系
 for i=1:n+1
     plot(Bezier_point(i,1),Bezier_point(i,2),'w*')
