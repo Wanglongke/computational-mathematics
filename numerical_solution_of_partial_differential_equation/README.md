@@ -1,6 +1,6 @@
 # The homework of numerical solution of partial differential equation
 ## 1. Adams Bashorth and Adams Moulton
-To solve the partial differential equation: 
+To solve the partial differential equation with Adams-Bashorth method, Adams-Moulton method and Euler method, and compare them: 
 ```
 du/dt = -5u
 u(0) = 1
