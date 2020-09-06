@@ -1,6 +1,6 @@
 # The homework of numerical solution of partial differential equation
 ## 1. Adams Bashorth and Adams Moulton
-To solve the partial differential equation with Adams-Bashorth method, Adams-Moulton method and Euler method, and compare them: 
+To solve the partial differential equation with **Adams-Bashorth method**, **Adams-Moulton method** and **Euler method**, and compare them: 
 ```
 du/dt = -5u
 u(0) = 1
@@ -13,7 +13,7 @@ u(0) = 1
 </p>
 
 ## 2. Runge-Kutta
-To solve the partial differential equation with Runge-Kutta in Four setp order method:
+To solve the partial differential equation with **Runge-Kutta** in Four setp order method:
 ```
 du/dt = 4t(u^0.5)
 u(0) = 1
