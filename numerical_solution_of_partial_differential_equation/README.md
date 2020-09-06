@@ -1,4 +1,4 @@
-#The homework of numerical solution of partial differential equation
+# The homework of numerical solution of partial differential equation
 ## 1. Adams Bashorth and Adams Moulton
 To solve the partial differential equation: 
 ```
