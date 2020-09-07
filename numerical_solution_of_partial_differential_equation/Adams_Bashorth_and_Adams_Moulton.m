@@ -36,7 +36,7 @@ error_in_third_adams=abs(U_in_adams-E);
 %% »­Í¼
 figure(1)
 plot(t,E,'r-*',t,U_euler,'g-o',t,U_out_adams,'b-x',t,U_in_adams,'y-+')
-legend('¾«È·½â','Euler method','Adams Bashorth','Adams Moulton')
+legend('Exact solution','Euler method','Adams Bashorth','Adams Moulton')
 figure(2)
 plot(t,error_euler,'g-o',t,error_out_third_adams,'b-x',t,error_in_third_adams,'y-+')
 legend('error Euler','error Adams Bashorth','error Adams Moulton')

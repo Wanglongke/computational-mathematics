@@ -18,7 +18,7 @@ end
 % »­Í¼
 figure(1)
 plot(t,u_precise,'r-*',t,u_numerical,'k-o')
-legend('precise value','numerical value')
+legend('Exact solution','Numerical solution')
 figure(2)
 plot(t,abs(u_precise-u_numerical),'r-.')
 legend('error')
