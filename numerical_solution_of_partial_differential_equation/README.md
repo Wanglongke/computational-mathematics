@@ -56,7 +56,7 @@ The solution is:
 ```
 u(x,y) = exp(pi(x+y))sin(pi*x)sin(pi*y)
 ```
-After convert the partial differential equation to system of equations, I compare the **conjugate gradient** method, **sor** iteration method, **Peaceman-Rachford** iteration method with **p** parameters or **one** parameters:
+After converting the partial differential equation to system of equations, I compare the **conjugate gradient** method, **sor** iteration method, **Peaceman-Rachford** iteration method with **p** parameters or **one** parameters:
 <p float="center">
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4_1.png" width="49%"/>
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4_2.png" width="49%"/>
