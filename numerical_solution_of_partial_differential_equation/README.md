@@ -7,7 +7,7 @@ u(0) = 1
 ```
 
 <p float="center">
-    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/fig1.png" width="33%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image1.PNG" width="33%"/>
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/fig2.png" width="33%"/>
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/tab1.png" width="33%"/>
 </p>
