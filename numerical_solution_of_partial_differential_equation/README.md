@@ -7,9 +7,9 @@ u(0) = 1
 ```
 Here is the comparison.
 <p float="center">
-    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image1.PNG" width="33%"/>
-    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image2.PNG" width="33%"/>
-    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/table.PNG" width="33%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image1_1.PNG" width="33%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image1_2.PNG" width="33%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image1_3.PNG" width="33%"/>
 </p>
 
 ## 2. Runge-Kutta
@@ -24,6 +24,18 @@ u(t) = (1 + t^2)^2
 ```
 Here is the numerical solution and error.
 <p float="center">
-    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image3.PNG" width="49%"/>
-    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4.PNG" width="49%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image2_1.PNG" width="49%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image2_2.PNG" width="49%"/>
+</p>
+
+## 3. Cnetral Difference
+The partial differential equation is:
+```
+-u'' + xu = (x-1)exp(x)
+u(0)=1, u(1)=exp(1)
+```
+Here is the numerical solution and error.
+<p float="center">
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image3_1.PNG" width="49%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image3_2.PNG" width="49%"/>
 </p>
