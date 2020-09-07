@@ -5,7 +5,7 @@ To solve the partial differential equation with **Adams-Bashorth method**, **Ada
 du/dt = -5u
 u(0) = 1
 ```
-
+Here is the comparison.
 <p float="center">
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image1.PNG" width="33%"/>
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image2.PNG" width="33%"/>
@@ -22,7 +22,7 @@ The solution is:
 ```
 u(t) = (1 + t^2)^2
 ```
-
+Here is the numerical solution and error.
 <p float="center">
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image3.PNG" width="49%"/>
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4.PNG" width="49%"/>
