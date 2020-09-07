@@ -34,8 +34,37 @@ The partial differential equation is:
 -u'' + xu = (x-1)exp(x)
 u(0)=1, u(1)=exp(1)
 ```
+The solution is:
+```
+u(x) = exp(x)
+```
 Here is the numerical solution and error.
 <p float="center">
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image3_1.PNG" width="49%"/>
     <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image3_2.PNG" width="49%"/>
 </p>
+
+## 4. Five Point Difference method
+The partial differential equation is:
+```
+delta u = 2(pi^2)exp(pi(x+y))(sin(pi*x)cos(pi*y)+cos(pi*x)sin(pi*y))
+u = 0, when x=0 || x=1 || y=0 || y=1
+0<=x<=1,
+0<=y<=1
+```
+The solution is:
+```
+u(x,y) = exp(pi(x+y))sin(pi*x)sin(pi*y)
+```
+After convert the partial differential equation to system of equations, I compare the **conjugate gradient** method, **sor** iteration method, **Peaceman-Rachford** iteration method with **p** parameters or **one** parameters:
+<p float="center">
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4_1.PNG" width="49%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4_2.PNG" width="49%"/>
+</p>
+
+<p float="center">
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4_3.PNG" width="49%"/>
+    <img src="https://github.com/Wanglongke/computational-mathematics/tree/master/numerical_solution_of_partial_differential_equation/doc/image4_4.PNG" width="49%"/>
+</p>
+
+In the process of each iteration method, I set the same stop threshold. So they have different iterations.
