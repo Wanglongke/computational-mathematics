@@ -68,3 +68,8 @@ After converting the partial differential equation to system of equations, I com
 </p>
 
 In the process of each iteration method, I set the same stop threshold. So they have different iterations.
+```
+            conjugate gradient |    sor    |   pr_p   |   pr_one
+iteration          190              192         46        154
+max error        0.028613         0.028733    0.028513   0.028612
+```
